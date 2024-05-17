@@ -1,0 +1,276 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    outline: none;
+}
+html { height: 101%; } 
+body { font-size: 62.5%; line-height: 1; font-family: Arial, Tahoma, Verdana, sans-serif; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+strong { font-weight: bold; } 
+
+input { outline: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+img { border: 0; max-width: 100%; }
+
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+html {
+    position: relative;
+    min-height: 100%;
+    background-image: url('1672264353_kalix-club-p-fon-dlya-tarologa-krasivo-2.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+html::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+body {
+    position: relative;
+    z-index: 2;
+    color: white;
+}
+
+#conteiner {
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 15%;
+    min-width: 372px;
+}
+
+#conteiner_min {
+    display: none;
+}
+
+#Text_taro, #Text_taro_2, #Text_taro_3 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+#Text_taro {
+    color: blueviolet;
+}
+
+#Text_taro_3, #Text_taro_2 {
+    color: red;
+}
+
+#conteiner_2 {
+    padding-top: 25px;
+}
+
+#pod_text_taro, #pod_text_taro {
+    color: blueviolet;
+    padding-top: 5px;
+    font-size: 13px;
+}
+
+a.button {
+    display: inline-block;
+    background: blueviolet;
+    color: aqua;
+    padding: 12px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Tahoma;
+    line-height: 1;
+    font-weight: 100;
+}
+
+a.button:hover {
+    background: blue;
+    color: aqua;
+}
+
+#buttonn {
+    margin-top: 24px;
+}
+
+#Text_taro_4, #Text_taro_5, #Text_taro_6, #Text_taro_7 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+#Text_taro_4 {
+    color: blueviolet;
+}
+
+#Text_taro_6, #Text_taro_5, #Text_taro_7 {
+    color: red;
+
+}
+
+#conteiner_3 {
+    padding-top: 25px;
+}
+
+#pod_text_taro_2, #pod_text_taro_2 {
+    color: rgb(43, 183, 226);
+    padding-top: 5px;
+    font-size: 13px;
+}
+
+#mrac {
+    padding-top: 10%;
+}
+
+@media all and (max-width: 500px) {
+    #conteiner {
+        display: none;
+        width: 50%;
+        margin-left: 10%;
+        margin-top: 15%;
+        min-width: 372px;
+    }
+
+    #conteiner_min {
+        display: block;
+        min-width: 200px;
+        width: 100%;
+        margin-top: 65%;
+        text-align: center;
+    }
+    #mrac {
+        padding-top: 25%;
+    }
+
+    #gallery {
+        margin-top: 250px;
+        text-align: center;
+        page-break-before: always;
+    }
+}
+
+@media all and (max-width: 850px) {
+    #conteiner {
+        width: 50%;
+        margin-left: 10%;
+        margin-top: 25%;
+        min-width: 372px;
+    }
+}
+
+/* Navigation Menu */
+nav {
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 3;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: aqua;
+}
+
+/* Footer */
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+}
+
+/* Gallery Section */
+#gallery {
+    margin-top: 250px;
+    text-align: center;
+    page-break-before: always;
+}
+
+#gallery h2 {
+    font-size: 24px;
+    color: blueviolet;
+    margin-bottom: 20px;
+}
+
+#gallery img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* Feedback Section */
+#feedback {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#feedback h2 {
+    font-size: 24px;
+    color: blueviolet;
+    margin-bottom: 20px;
+}
+
+#feedback p {
+    font-size: 18px;
+    color: white;
+    margin: 10px 0;
+}
+
+/* About Me Section */
+#about {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 24px;
+    color: blueviolet;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 18px;
+    color: white;
+    margin: 10px 0;
+}
